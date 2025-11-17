@@ -56,6 +56,7 @@ O dispositivo é ideal para monitoramento, segurança residencial ou assistênci
 - Jumpers + protoboard
 
 --------------------------------------------------------//-----------------------------------------------
+
 ###🔌 Mapeamento dos Pinos
 - Função	Pino
 - Botão WhatsApp	22
