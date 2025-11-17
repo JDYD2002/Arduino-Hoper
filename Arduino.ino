@@ -7,8 +7,8 @@
 // =======================
 // WiFi
 // =======================
-const char* ssid = "Virus";
-const char* password = "32531085Ff*";
+const char* ssid = "";  // Nome wifi
+const char* password = ""; // Senha wifi
 
 // =======================
 // Pinos
@@ -24,14 +24,14 @@ const char* password = "32531085Ff*";
 // =======================
 // CallMeBot (WhatsApp)
 // =======================
-String phoneNumber = "559185784046";  // sem '+'
-String callmebotApiKey = "6734100";
+String phoneNumber = "";  // sem '+', telefone
+String callmebotApiKey = ""; // APi 
 
 // =======================
 // Telegram
 // =======================
-#define BOT_TOKEN "7037451991:AAH6Jq1ml7PDm01jkHBrqGtlosc1hvZiNzM"
-#define CHAT_ID "1579849532"
+#define BOT_TOKEN "" 
+#define CHAT_ID "" 
 
 WiFiClientSecure secured_client;
 UniversalTelegramBot bot(BOT_TOKEN, secured_client);
