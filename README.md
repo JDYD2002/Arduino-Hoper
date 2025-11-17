@@ -89,14 +89,14 @@ O dispositivo é ideal para monitoramento, segurança residencial ou assistênci
 
 Editar no código:
 
-const char* ssid = "SEU_WIFI";
-const char* password = "SENHA";
+- const char* ssid = "SEU_WIFI";
+- const char* password = "SENHA";
 
-String phoneNumber = "5511XXXXXXXXX"; // CallMeBot
-String callmebotApiKey = "SUA_KEY";
+- String phoneNumber = "5511XXXXXXXXX"; // CallMeBot
+- String callmebotApiKey = "SUA_KEY";
 
-#define BOT_TOKEN "SEU_TOKEN"
-#define CHAT_ID "SEU_CHAT_ID"
+- #define BOT_TOKEN "SEU_TOKEN"
+- #define CHAT_ID "SEU_CHAT_ID"
 
 --------------------------------------------------------------//------------------------------------------------------------------------
 
