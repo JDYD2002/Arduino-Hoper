@@ -6,7 +6,7 @@
 ![Whatsapp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
 ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
 
---------------------------------------------------------------//------------------------------------------------------------------------
+--------------------------------------------------------//-----------------------------------------------
 
 Este projeto implementa um sistema de emergência usando um ESP32, onde três botões físicos executam ações diferentes: enviar alerta pelo WhatsApp, enviar alerta pelo Telegram ou ativar um alerta local.
 O dispositivo é ideal para monitoramento, segurança residencial ou assistência a pessoas com necessidade de botão de pânico.
@@ -22,7 +22,7 @@ O dispositivo é ideal para monitoramento, segurança residencial ou assistênci
 
 - Possui tempo de espera (cooldown) para evitar spam
 
---------------------------------------------------------------//------------------------------------------------------------------------
+--------------------------------------------------------//-----------------------------------------------
 
 🔘 Botão 2 – Telegram
 
@@ -34,7 +34,7 @@ O dispositivo é ideal para monitoramento, segurança residencial ou assistênci
 
 - Cooldown automático
 
---------------------------------------------------------------//------------------------------------------------------------------------
+--------------------------------------------------------//-----------------------------------------------
 
 🔘 Botão 3 – Alerta Local
 
@@ -44,7 +44,7 @@ O dispositivo é ideal para monitoramento, segurança residencial ou assistênci
 
 - Não envia nada pela internet
 
---------------------------------------------------------------//------------------------------------------------------------------------
+--------------------------------------------------------//-----------------------------------------------
 
 🛠️ Componentes Utilizados
 
@@ -55,8 +55,7 @@ O dispositivo é ideal para monitoramento, segurança residencial ou assistênci
 - Buzzer ativo ou passivo
 - Jumpers + protoboard
 
---------------------------------------------------------------//------------------------------------------------------------------------
-
+--------------------------------------------------------//-----------------------------------------------
 ###🔌 Mapeamento dos Pinos
 - Função	Pino
 - Botão WhatsApp	22
@@ -67,7 +66,7 @@ O dispositivo é ideal para monitoramento, segurança residencial ou assistênci
 - LED Local	21
 - Buzzer	23
 
---------------------------------------------------------------//------------------------------------------------------------------------
+--------------------------------------------------------//-----------------------------------------------
 
 📡 Como o Sistema Funciona
 
@@ -82,8 +81,7 @@ O dispositivo é ideal para monitoramento, segurança residencial ou assistênci
 - Função isolada
 - Cooldown entre acionamentos evita mensagens repetidas
 
---------------------------------------------------------------//------------------------------------------------------------------------
-
+--------------------------------------------------------//-----------------------------------------------
 
 ⚙️ Configuração Necessária
 
@@ -98,8 +96,7 @@ Editar no código:
 - #define BOT_TOKEN "SEU_TOKEN"
 - #define CHAT_ID "SEU_CHAT_ID"
 
---------------------------------------------------------------//------------------------------------------------------------------------
-
+--------------------------------------------------------//-----------------------------------------------
 ▶️ Como Fazer o Upload
 
 - Instale as placas ESP32 na Arduino IDE
@@ -114,8 +111,7 @@ Un- iversalTelegramBot
 
 - Clique em Upload
 
---------------------------------------------------------------//------------------------------------------------------------------------
-
+--------------------------------------------------------//-----------------------------------------------
 📑 Sobre o Código
 
 O firmware contém:
@@ -134,7 +130,7 @@ O firmware contém:
 
 - Estrutura limpa e legível
 
---------------------------------------------------------------//------------------------------------------------------------------------
+--------------------------------------------------------//-----------------------------------------------
 
 Desenvolvido para salvar vidas através da tecnologia
 
